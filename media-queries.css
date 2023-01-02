@@ -47,9 +47,13 @@ footer{
     justify-content: space-between;
 }
 i{
-    opacity: .6;
+    color: gray;
     margin: auto .5em;
 }
+/*a:visited {*/
+/*    color: forestgreen;*/
+/*    text-decoration-color: hotpink;*/
+/*}*/
 footer p{
     margin: 0;
 }
