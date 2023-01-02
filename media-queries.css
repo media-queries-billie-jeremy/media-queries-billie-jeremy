@@ -68,7 +68,9 @@ footer p{
          justify-content: space-between;
      }
      ul li{
+         /*text-decoration: underline;*/
          display: inline;
+         background-color: white;
      }
      .header-img img{
          flex-grow: 1;
