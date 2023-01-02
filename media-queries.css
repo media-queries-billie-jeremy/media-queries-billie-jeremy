@@ -1,22 +1,36 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 body {
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-decoration: none;
 }
 .alert-info{
     width: 100%;
     background-color: lightblue;
 }
 h1 {
-
+    text-align: center;
 }
 .header-img img {
     width: 100vw;
-    border: 1em black solid;
+    border: 2px black solid;
     object-fit: cover;
+}
+ul {
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    background-color: lightgray;
+    margin: .5em;
+    padding: .5em;
+    text-align: center;
+}
+nav {
+    /*display: flex;*/
+    /*justify-content: center;*/
 }
