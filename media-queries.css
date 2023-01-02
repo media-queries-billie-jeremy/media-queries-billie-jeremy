@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+.alert-info{
+    width: 100%;
+    background-color: lightblue;
+}
+h1 {
+
+}
+.header-img img {
+    width: 100vw;
+    border: 1em black solid;
+    object-fit: cover;
+}
